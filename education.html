@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Wavesolution - Education</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+<!-- Spinner Start -->
+<div id="spinner"
+class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+<div class="spinner-border position-relative text-primary" style="width: 6rem; height: 6rem;" role="status">
+</div>
+<i class="fa fa-circle fa-2x text-primary position-absolute top-50 start-50 translate-middle"></i>
+</div>
+<!-- Spinner End -->
+
+<!--Header Start-->
+<!-- Topbar Start -->
+<div class="container-fluid bg-light px-0 wow fadeIn" data-wow-delay="0.1s">
+<div class="row gx-0 align-items-center d-lg-flex">
+    <!-- TradingView Widget BEGIN -->
+    <div class="tradingview-widget-container">
+        <div class="tradingview-widget-container__widget"></div>
+        <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/" rel="noopener"
+                target="_blank"><span class="blue-text">Markets</span></a> by TradingView</div>
+        <script type="text/javascript"
+            src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+            {
+                "symbols": [{
+                        "proName": "FOREXCOM:SPXUSD",
+                        "title": "S&P 500"
+                    },
+                    {
+                        "proName": "FOREXCOM:NSXUSD",
+                        "title": "US 100"
+                    },
+                    {
+                        "proName": "FX_IDC:EURUSD",
+                        "title": "EUR/USD"
+                    },
+                    {
+                        "proName": "BITSTAMP:BTCUSD",
+                        "title": "Bitcoin"
+                    },
+                    {
+                        "proName": "BITSTAMP:ETHUSD",
+                        "title": "Ethereum"
+                    },
+                    {
+                        "description": "",
+                        "proName": "BINANCE:BTCUSDT"
+                    },
+                    {
+                        "description": "",
+                        "proName": "NSE:NIFTY"
+                    },
+                    {
+                        "description": "",
+                        "proName": "NSE:BANKNIFTY"
+                    },
+                    {
+                        "description": "",
+                        "proName": "BITSTAMP:BTCUSD"
+                    },
+                    {
+                        "description": "",
+                        "proName": "OANDA:XAUUSD"
+                    },
+                    {
+                        "description": "",
+                        "proName": "FX:EURUSD"
+                    },
+                    {
+                        "description": "",
+                        "proName": "BINANCE:ETHUSDT"
+                    },
+                    {
+                        "description": "",
+                        "proName": "BINANCE:BTCUSDTPERP"
+                    },
+                    {
+                        "description": "",
+                        "proName": "TVC:DXY"
+                    },
+                    {
+                        "description": "",
+                        "proName": "FX:GBPUSD"
+                    },
+                    {
+                        "description": "",
+                        "proName": "FX:USDJPY"
+                    },
+                    {
+                        "description": "",
+                        "proName": "COINBASE:BTCUSD"
+                    },
+                    {
+                        "description": "",
+                        "proName": "AMEX:SPY"
+                    },
+                    {
+                        "description": "",
+                        "proName": "NASDAQ:AAPL"
+                    },
+                    {
+                        "description": "",
+                        "proName": "NASDAQ:AAPL"
+                    },
+                    {
+                        "description": "",
+                        "proName": "SP:SPX"
+                    },
+                    {
+                        "description": "",
+                        "proName": "BYBIT:BTCUSDT"
+                    },
+                    {
+                        "description": "",
+                        "proName": "FX:GBPJPY"
+                    },
+                    {
+                        "description": "",
+                        "proName": "FX:GBPJPY"
+                    },
+                    {
+                        "description": "",
+                        "proName": "NASDAQ:TSLA"
+                    },
+                    {
+                        "description": "",
+                        "proName": "TVC:GOLD"
+                    },
+                    {
+                        "description": "",
+                        "proName": "OANDA:EURUSD"
+                    },
+                    {
+                        "description": "",
+                        "proName": "BINANCE:SOLUSDT"
+                    },
+                    {
+                        "description": "",
+                        "proName": "NSE:BANKNIFTY1!"
+                    },
+                    {
+                        "description": "",
+                        "proName": "CME_MINI:ES1!"
+                    },
+                    {
+                        "description": "",
+                        "proName": "CME_MINI:ES1!"
+                    },
+                    {
+                        "description": "",
+                        "proName": "FX:AUDUSD"
+                    },
+                    {
+                        "description": "",
+                        "proName": "SGX:IN1!"
+                    },
+                    {
+                        "description": "",
+                        "proName": "NSE:NIFTY1!"
+                    },
+                    {
+                        "description": "",
+                        "proName": "OANDA:GBPUSD"
+                    },
+                    {
+                        "description": "",
+                        "proName": "OANDA:GBPJPY"
+                    },
+                    {
+                        "description": "",
+                        "proName": "BITSTAMP:ETHUSD"
+                    },
+                    {
+                        "description": "",
+                        "proName": "FOREXCOM:XAUUSD"
+                    },
+                    {
+                        "description": "",
+                        "proName": "CURRENCYCOM:US30"
+                    },
+                    {
+                        "description": "",
+                        "proName": "NASDAQ:QQQ"
+                    },
+                    {
+                        "description": "",
+                        "proName": "TVC:USOIL"
+                    },
+                    {
+                        "description": "",
+                        "proName": "COINBASE:ETHUSD"
+                    },
+                    {
+                        "description": "",
+                        "proName": "OANDA:NAS100USD"
+                    },
+                    {
+                        "description": "",
+                        "proName": "FX:USDCAD"
+                    },
+                    {
+                        "description": "",
+                        "proName": "INDEX:BTCUSD"
+                    },
+                    {
+                        "description": "",
+                        "proName": "BINANCE:ADAUSDT"
+                    },
+                    {
+                        "description": "",
+                        "proName": "NASDAQ:AMZN"
+                    },
+                    {
+                        "description": "",
+                        "proName": "CURRENCYCOM:US100"
+                    },
+                    {
+                        "description": "",
+                        "proName": "BYBIT:BTCUSD"
+                    },
+                    {
+                        "description": "",
+                        "proName": "OANDA:US30USD"
+                    },
+                    {
+                        "description": "",
+                        "proName": "OANDA:AUDUSD"
+                    },
+                    {
+                        "description": "",
+                        "proName": "NSE:RELIANCE"
+                    },
+                    {
+                        "description": "",
+                        "proName": "CME_MINI:NQ1!"
+                    },
+                    {
+                        "description": "",
+                        "proName": "BINANCE:BNBUSDT"
+                    },
+                    {
+                        "description": "",
+                        "proName": "FX:EURJPY"
+                    },
+                    {
+                        "description": "",
+                        "proName": "BINANCE:ETHUSDTPERP"
+                    },
+                    {
+                        "description": "",
+                        "proName": "OANDA:USDJPY"
+                    }
+                ],
+                "showSymbolLogo": true,
+                "colorTheme": "light",
+                "isTransparent": false,
+                "displayMode": "adaptive",
+                "locale": "en"
+            }
+        </script>
+    </div>
+    <!-- TradingView Widget END -->
+</div>
+</div>
+<!-- Topbar End -->
+
+
+<!-- Navbar Start -->
+<nav class="navbar navbar-expand-lg bg-primary navbar-dark sticky-top py-lg-0 px-lg-5 wow fadeIn"
+data-wow-delay="0.1s">
+
+<a href="index.html" class="navbar-brand m-0 p-0 fx-center">
+    <img class="logo-img mr-11" src="img/logo.jpg" alt="Logo">
+    <h1 class="fw-bold text-primary m-0 logo-title">wavesolution</h1>
+</a>
+<button type="button" class="navbar-toggler me-3" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+    <span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarCollapse">
+    <div class="navbar-nav me-auto p-3 p-lg-0">
+        <a href="index.html" class="nav-item nav-link">Home</a>
+        <a href="about.html" class="nav-item nav-link">About Us</a>
+        <a href="education.html" class="nav-item nav-link active">Education</a>
+        <div class="nav-item dropdown">
+            <a href="#" class="nav-item dropdown-toggle nav-link" data-bs-toggle="dropdown">Platform</a>
+            <div class="dropdown-menu border-0 rounded-0 rounded-bottom m-0">
+                <a href="trade.html" class="dropdown-item">Web platform</a>
+            </div>
+        </div>
+        <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+        <div class="nav-item dropdown">
+            <a href="#" class="nav-item dropdown-toggle nav-link" data-bs-toggle="dropdown">English</a>
+            <div class="dropdown-menu border-0 rounded-0 rounded-bottom m-0">
+                <a href="#" class="dropdown-item">Italiano</a>
+            </div>
+        </div>
+        <a href="#" class="nav-item nav-link">Sign in</a>
+
+    </div>
+    <a href="#" class="btn btn-sm btn-c-sm btn-light rounded-pill py-2 px-4 d-none d-lg-block">Open account</a>
+</div>
+</nav>
+<!-- Navbar End -->
+<!--Header Ends-->
+
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container text-center py-5">
+            <h1 class="display-4 text-white animated slideInDown mb-3">Education</h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb justify-content-center mb-0">
+                    <li class="breadcrumb-item"><a class="text-white" href="index.html">Home</a></li>
+                    <li class="breadcrumb-item text-primary active" aria-current="page">Education</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h6 class="section-title bg-white text-center text-primary px-3">knowledge is a wise investment</h6>
+                <h1 class="display-6 mb-4">Learn. Understand. Trade.</h1>
+            </div>
+            <section class="section sc5">
+                <div class="section__inner">
+                    <div class="container">
+                        <ul class="acc-list">
+                            <li class="acc-item active" data-course="beginner">
+                                Beginner Course
+                            </li>
+                            <li class="acc-item" data-course="trading">
+                                Trading Tools
+                            </li>
+                            <li class="acc-item" data-course="stocks">
+                                Stocks and CFDs
+                            </li>
+                        </ul>
+                        <div class="account-container">
+                            <div class="course-content active" id="beginner">
+                                <div class="left-side">
+                                    <h4 class="title">Beginner Course</h4>
+                                    <p class="description">Learn the basic concepts of forex trading, what this market
+                                        is all about, and why you should be a part of it.</p>
+                                    <div class="options fx_center">
+                                        <a class="br-btn btn mr_22 contact-btn" href="contact.html">
+                                            <p class="text">Contact Us</p>
+                                        </a>
+                                        <a class="fl-btn btn auth-btn" href="#">
+                                            <p class="text">Register Now</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="right-side">
+                                    <div class="acc-img mx-350">
+                                        <img class="img" src="img/forexTrading.jpg" alt="forex-trading">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="course-content" id="trading">
+                                <div class="left-side">
+                                    <h4 class="title">Trading Tools</h4>
+                                    <p class="description">Familiarize yourself with advanced strategies and Btrade's
+                                        trading toolset. Take your trading to the next level.</p>
+                                    <div class="options fx_center">
+                                        <a class="br-btn btn mr_22 contact-btn" href="contact.html">
+                                            <p class="text">Contact Us</p>
+                                        </a>
+                                        <a class="fl-btn btn auth-btn" href="#">
+                                            <p class="text">Register Now</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="right-side">
+                                    <div class="acc-img">
+                                        <img class="img" src="img/tradingTools.png" alt="trading-tools">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="course-content" id="stocks">
+                                <div class="left-side">
+                                    <h4 class="title">Stocks and CFDs</h4>
+                                    <p class="description">Discover the world of CFD trading: The ins & outs of the CFD
+                                        market, relevant information and market dynamics.</p>
+                                    <div class="options fx_center">
+                                        <a class="br-btn btn mr_22 contact-btn" href="contact.html">
+                                            <p class="text">Contact Us</p>
+                                        </a>
+                                        <a class="fl-btn btn auth-btn" href="#">
+                                            <p class="text">Register Now</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="right-side">
+                                    <div class="acc-img">
+                                        <img class="img" src="img/cdf.jpg" alt="stocks-and-cfds">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-body footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="text-light mb-4">Company</h5>
+                    <a class="btn btn-link" href="terms-condition.html">Terms & Conditions</a>
+                    <a class="btn btn-link" href="#">Privacy Policy</a>
+                    <a class="btn btn-link" href="about.html">About Us</a>
+                    <a class="btn btn-link" href="contact.html">Contact</a>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="text-light mb-4">Quick Links</h5>
+                    <a class="btn btn-link"
+                        href="https://download.mql5.com/cdn/web/metaquotes.software.corp/mt5/mt5setup.exe?utm_source=www.metatrader5.com&utm_campaign=download">Download</a>
+                    <a class="btn btn-link" href="web-platform.html">Web Platform MT5</a>
+                    <a class="btn btn-link" href="#">Open Account</a>
+                    <a class="btn btn-link" href="#">Log in</a>
+                </div>
+                <form class="col-lg-4 col-md-6">
+                    <h5 class="text-light mb-4">Subscribe Us</h5>
+                    <p>Subscribe to get latest news article and resources.</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control bg-transparent border-secondary w-100 py-3 ps-4 pe-5" type="text"
+                            placeholder="Subscribe Now...">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M21.426 11.0949L4.42601 3.09492C4.25482 3.01437 4.0643 2.98404 3.87657 3.00743C3.68883 3.03083 3.51158 3.107 3.36541 3.22711C3.21923 3.34721 3.11012 3.50632 3.05076 3.68595C2.99139 3.86558 2.98419 4.05837 3.03001 4.24192L4.24201 9.09092L12 11.9999L4.24201 14.9089L3.03001 19.7579C2.98333 19.9416 2.98992 20.1348 3.04902 20.3149C3.10811 20.495 3.21726 20.6545 3.3637 20.7748C3.51014 20.8951 3.68782 20.9713 3.87594 20.9943C4.06406 21.0173 4.25486 20.9863 4.42601 20.9049L21.426 12.9049C21.5978 12.8242 21.7431 12.6962 21.8448 12.5359C21.9466 12.3757 22.0006 12.1898 22.0006 11.9999C22.0006 11.8101 21.9466 11.6242 21.8448 11.4639C21.7431 11.3037 21.5978 11.1757 21.426 11.0949V11.0949Z"
+                                    fill="white" />
+                            </svg>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="container-fluid copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a href="index.html">Wavesolution</a>, All Right Reserved.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

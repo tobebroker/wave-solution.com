@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Wavesolution - Home</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border position-relative text-primary" style="width: 6rem; height: 6rem;" role="status">
+        </div>
+        <i class="fa fa-circle fa-2x text-primary position-absolute top-50 start-50 translate-middle"></i>
+    </div>
+    <!-- Spinner End -->
+
+    <!--Header Start-->
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-light px-0 wow fadeIn" data-wow-delay="0.1s">
+        <div class="row gx-0 align-items-center d-lg-flex">
+            <!-- TradingView Widget BEGIN -->
+            <div class="tradingview-widget-container">
+                <div class="tradingview-widget-container__widget"></div>
+                <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/" rel="noopener"
+                        target="_blank"><span class="blue-text">Markets</span></a> by TradingView</div>
+                <script type="text/javascript"
+                    src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+                    {
+                        "symbols": [{
+                                "proName": "FOREXCOM:SPXUSD",
+                                "title": "S&P 500"
+                            },
+                            {
+                                "proName": "FOREXCOM:NSXUSD",
+                                "title": "US 100"
+                            },
+                            {
+                                "proName": "FX_IDC:EURUSD",
+                                "title": "EUR/USD"
+                            },
+                            {
+                                "proName": "BITSTAMP:BTCUSD",
+                                "title": "Bitcoin"
+                            },
+                            {
+                                "proName": "BITSTAMP:ETHUSD",
+                                "title": "Ethereum"
+                            },
+                            {
+                                "description": "",
+                                "proName": "BINANCE:BTCUSDT"
+                            },
+                            {
+                                "description": "",
+                                "proName": "NSE:NIFTY"
+                            },
+                            {
+                                "description": "",
+                                "proName": "NSE:BANKNIFTY"
+                            },
+                            {
+                                "description": "",
+                                "proName": "BITSTAMP:BTCUSD"
+                            },
+                            {
+                                "description": "",
+                                "proName": "OANDA:XAUUSD"
+                            },
+                            {
+                                "description": "",
+                                "proName": "FX:EURUSD"
+                            },
+                            {
+                                "description": "",
+                                "proName": "BINANCE:ETHUSDT"
+                            },
+                            {
+                                "description": "",
+                                "proName": "BINANCE:BTCUSDTPERP"
+                            },
+                            {
+                                "description": "",
+                                "proName": "TVC:DXY"
+                            },
+                            {
+                                "description": "",
+                                "proName": "FX:GBPUSD"
+                            },
+                            {
+                                "description": "",
+                                "proName": "FX:USDJPY"
+                            },
+                            {
+                                "description": "",
+                                "proName": "COINBASE:BTCUSD"
+                            },
+                            {
+                                "description": "",
+                                "proName": "AMEX:SPY"
+                            },
+                            {
+                                "description": "",
+                                "proName": "NASDAQ:AAPL"
+                            },
+                            {
+                                "description": "",
+                                "proName": "NASDAQ:AAPL"
+                            },
+                            {
+                                "description": "",
+                                "proName": "SP:SPX"
+                            },
+                            {
+                                "description": "",
+                                "proName": "BYBIT:BTCUSDT"
+                            },
+                            {
+                                "description": "",
+                                "proName": "FX:GBPJPY"
+                            },
+                            {
+                                "description": "",
+                                "proName": "FX:GBPJPY"
+                            },
+                            {
+                                "description": "",
+                                "proName": "NASDAQ:TSLA"
+                            },
+                            {
+                                "description": "",
+                                "proName": "TVC:GOLD"
+                            },
+                            {
+                                "description": "",
+                                "proName": "OANDA:EURUSD"
+                            },
+                            {
+                                "description": "",
+                                "proName": "BINANCE:SOLUSDT"
+                            },
+                            {
+                                "description": "",
+                                "proName": "NSE:BANKNIFTY1!"
+                            },
+                            {
+                                "description": "",
+                                "proName": "CME_MINI:ES1!"
+                            },
+                            {
+                                "description": "",
+                                "proName": "CME_MINI:ES1!"
+                            },
+                            {
+                                "description": "",
+                                "proName": "FX:AUDUSD"
+                            },
+                            {
+                                "description": "",
+                                "proName": "SGX:IN1!"
+                            },
+                            {
+                                "description": "",
+                                "proName": "NSE:NIFTY1!"
+                            },
+                            {
+                                "description": "",
+                                "proName": "OANDA:GBPUSD"
+                            },
+                            {
+                                "description": "",
+                                "proName": "OANDA:GBPJPY"
+                            },
+                            {
+                                "description": "",
+                                "proName": "BITSTAMP:ETHUSD"
+                            },
+                            {
+                                "description": "",
+                                "proName": "FOREXCOM:XAUUSD"
+                            },
+                            {
+                                "description": "",
+                                "proName": "CURRENCYCOM:US30"
+                            },
+                            {
+                                "description": "",
+                                "proName": "NASDAQ:QQQ"
+                            },
+                            {
+                                "description": "",
+                                "proName": "TVC:USOIL"
+                            },
+                            {
+                                "description": "",
+                                "proName": "COINBASE:ETHUSD"
+                            },
+                            {
+                                "description": "",
+                                "proName": "OANDA:NAS100USD"
+                            },
+                            {
+                                "description": "",
+                                "proName": "FX:USDCAD"
+                            },
+                            {
+                                "description": "",
+                                "proName": "INDEX:BTCUSD"
+                            },
+                            {
+                                "description": "",
+                                "proName": "BINANCE:ADAUSDT"
+                            },
+                            {
+                                "description": "",
+                                "proName": "NASDAQ:AMZN"
+                            },
+                            {
+                                "description": "",
+                                "proName": "CURRENCYCOM:US100"
+                            },
+                            {
+                                "description": "",
+                                "proName": "BYBIT:BTCUSD"
+                            },
+                            {
+                                "description": "",
+                                "proName": "OANDA:US30USD"
+                            },
+                            {
+                                "description": "",
+                                "proName": "OANDA:AUDUSD"
+                            },
+                            {
+                                "description": "",
+                                "proName": "NSE:RELIANCE"
+                            },
+                            {
+                                "description": "",
+                                "proName": "CME_MINI:NQ1!"
+                            },
+                            {
+                                "description": "",
+                                "proName": "BINANCE:BNBUSDT"
+                            },
+                            {
+                                "description": "",
+                                "proName": "FX:EURJPY"
+                            },
+                            {
+                                "description": "",
+                                "proName": "BINANCE:ETHUSDTPERP"
+                            },
+                            {
+                                "description": "",
+                                "proName": "OANDA:USDJPY"
+                            }
+                        ],
+                        "showSymbolLogo": true,
+                        "colorTheme": "light",
+                        "isTransparent": false,
+                        "displayMode": "adaptive",
+                        "locale": "en"
+                    }
+                </script>
+            </div>
+            <!-- TradingView Widget END -->
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-primary navbar-dark sticky-top py-lg-0 px-lg-5 wow fadeIn"
+        data-wow-delay="0.1s">
+        
+        <a href="index.html" class="navbar-brand m-0 p-0 fx-center">
+            <img class="logo-img mr-11" src="img/logo.jpg" alt="Logo">
+            <h1 class="fw-bold text-primary m-0 logo-title">wavesolution</h1>
+        </a>
+        <button type="button" class="navbar-toggler me-3" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav me-auto p-3 p-lg-0">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="about.html" class="nav-item nav-link">About Us</a>
+                <a href="education.html" class="nav-item nav-link">Education</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-item dropdown-toggle nav-link" data-bs-toggle="dropdown">Platform</a>
+                    <div class="dropdown-menu border-0 rounded-0 rounded-bottom m-0">
+                        <a href="trade.html" class="dropdown-item">Web platform</a>
+                    </div>
+                </div>
+                <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-item dropdown-toggle nav-link" data-bs-toggle="dropdown">English</a>
+                    <div class="dropdown-menu border-0 rounded-0 rounded-bottom m-0">
+                        <a href="#" class="dropdown-item">Italiano</a>
+                    </div>
+                </div>
+                <a href="#" class="nav-item nav-link">Sign in</a>
+
+            </div>
+            <a href="#" class="btn btn-sm btn-c-sm btn-light rounded-pill py-2 px-4 d-none d-lg-block">Open account</a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+    <!--Header Ends-->
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 mb-5 wow fadeIn" data-wow-delay="0.1s">
+        <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+            <!-- <div class="carousel-indicators">
+                <button type="button" data-bs-target="#header-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
+                    <img class="img-fluid" src="img/carousel-1.jpg" alt="Image">
+                </button>
+            </div> -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100 img" src="img/carousel-1.jpg" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h1 class="display-1 text-white mb-0 animated zoomIn">One place to trade with regulated
+                                broker.</h1>
+                            <a href="#"
+                                class="btn btn-sm btn-c-sm btn-light rounded-pill py-2 px-4 d-none d-lg-block mxw m-20-auto">GET
+                                STARTED</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button> -->
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- Facts Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="fact-item bg-light rounded text-center h-100 p-5">
+                        <i class="fa fa-industry fa-4x text-primary mb-4"></i>
+                        <h5 class="mb-3">In industry</h5>
+                        <div class="fx-centerX counterUp">
+                            <h1 class="display-5 mb-0" data-toggle="counter-up">11</h1>
+                            <h1 class="display-5 mb-0">year</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="fact-item bg-light rounded text-center h-100 p-5">
+                        <i class="fa fa-store fa-4x text-primary mb-4"></i>
+                        <h5 class="mb-3">Markets</h5>
+                        <div class="fx-centerX counterUp">
+                            <h1 class="display-5 mb-0" data-toggle="counter-up">450</h1>
+                            <h1 class="display-5 mb-0">+</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="fact-item bg-light rounded text-center h-100 p-5 counterUp">
+                        <i class="fa fa-wallet fa-4x text-primary mb-4"></i>
+                        <h5 class="mb-3">Currencies</h5>
+                        <h1 class="display-5 mb-0" data-toggle="counter-up">38</h1>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="fact-item bg-light rounded text-center h-100 p-5">
+                        <i class="fa fa-globe fa-4x text-primary mb-4"></i>
+                        <h5 class="mb-3">Countries</h5>
+                        <div class="fx-centerX counterUp">
+                            <h1 class="display-5 mb-0" data-toggle="counter-up">20</h1>
+                            <h1 class="display-5 mb-0">+</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Facts End -->
+
+
+    <!-- About Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="img-border">
+                        <img class="img-fluid" src="img/mt5.png" alt="metaTrader5">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="h-100">
+                        <h6 class="section-title bg-white text-start text-primary pe-3">The most advanced trading
+                            platform</h6>
+                        <h1 class="display-6 mb-4">Welcome to the <span class="text-primary">MT5</span> Platform.</h1>
+                        <div class="fx-center-max">
+                            <ul class="tr-cur pdl-none">
+                                <li class="active deviceList" data-trader="windows">WINDOWS</li>
+                                <li class="deviceList" data-trader="android">ANDROID</li>
+                                <li class="deviceList" data-trader="ios">IOS</li>
+                            </ul>
+                        </div>
+                        <div class="device-container">
+                            <div class="device-content active" id="windows">
+                                <h3>Trade on Windows</h3>
+                                <p>Ideal for traders on the go, MT5 mobile brings new order types and detailed market
+                                    depth information straight to your mobile device. Available for iOS and Android.</p>
+                                <p class="dnf">Download for</p>
+                                <ul class="download-list pdl-none">
+                                    <li class="download-item">
+                                        <a class="download-link fx_center"
+                                            href="https://download.mql5.com/cdn/web/metaquotes.software.corp/mt5/mt5setup.exe?utm_source=www.metatrader5.com&utm_campaign=download">
+                                            <svg class="icon" width="22" height="22" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M0 3.16181L8.9375 1.92706V10.5889H0V3.16181ZM10.0368 1.78681L22 0V10.4479H10.0368V1.78681ZM0 11.5521H8.9375V20.2139L0 18.9743V11.5521ZM10.0368 11.5521H22V22L10.1771 20.3493L10.0368 11.5521Z"
+                                                    fill="#293838" />
+                                            </svg>
+                                            <p class="text">WINDOWS</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="device-content" id="android">
+                                <h3>Trade on Android</h3>
+                                <p>Ideal for traders on the go, MT5 mobile brings new order types and detailed market
+                                    depth information straight to your mobile device. Available for iOS and Android.</p>
+                                <p class="dnf">Download for</p>
+                                <ul class="download-list pdl-none">
+                                    <li class="download-item">
+                                        <a class="download-link fx_center" target="_blank"
+                                            href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader5&hl=en&referrer=ref_id%3d5188164303003803572%26server%3dInvestGroup-Server">
+                                            <svg class="icon" width="22" height="22" viewBox="0 0 22 22" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M5.225 8.78697V13.7631C5.225 14.4245 4.70525 14.9532 4.04319 14.9532C3.38594 14.9532 2.75 14.4203 2.75 13.7631V8.78697C2.75 8.13797 3.38594 7.60515 4.04319 7.60515C4.69219 7.60515 5.225 8.13797 5.225 8.78697V8.78697ZM5.68906 15.5334C5.68906 16.2381 6.25625 16.8053 6.96094 16.8053H7.81619L7.82925 19.4308C7.82925 21.0162 10.2011 21.0038 10.2011 19.4308V16.8053H11.7996V19.4308C11.7996 21.008 14.1845 21.0121 14.1845 19.4308V16.8053H15.0521C15.2186 16.8047 15.3833 16.7714 15.5369 16.7072C15.6904 16.643 15.8298 16.5491 15.9471 16.431C16.0644 16.3129 16.1573 16.1728 16.2204 16.0188C16.2835 15.8648 16.3157 15.6999 16.3151 15.5334V7.82515H5.68906V15.5334ZM16.3453 7.40784H5.64163C5.64163 5.56878 6.74162 3.97034 8.37444 3.13709L7.55356 1.62047C7.43325 1.41009 7.7385 1.27672 7.84163 1.45684L8.67488 2.98653C10.1743 2.32034 11.8979 2.35472 13.3286 2.98653L14.1577 1.46097C14.2649 1.27603 14.5661 1.41353 14.4457 1.62459L13.6249 3.13709C15.2446 3.97034 16.3446 5.56947 16.3446 7.40784H16.3453ZM9.01037 5.02291C9.01037 4.90329 8.96286 4.78858 8.87828 4.704C8.7937 4.61942 8.67899 4.57191 8.55937 4.57191C8.31462 4.57191 8.12144 4.77816 8.12144 5.02291C8.12144 5.26766 8.31944 5.4739 8.55937 5.4739C8.81306 5.4739 9.01037 5.26766 9.01037 5.02291ZM13.8834 5.02291C13.8839 4.90525 13.8383 4.79207 13.7563 4.70772C13.6742 4.62338 13.5624 4.57461 13.4447 4.57191C13.3251 4.57191 13.2104 4.61942 13.1258 4.704C13.0413 4.78858 12.9937 4.90329 12.9937 5.02291C12.9937 5.14252 13.0413 5.25723 13.1258 5.34181C13.2104 5.42639 13.3251 5.4739 13.4447 5.4739C13.6854 5.4739 13.8834 5.26766 13.8834 5.02291V5.02291ZM17.9568 7.60584C17.3078 7.60584 16.775 8.12559 16.775 8.78765V13.7638C16.775 14.4252 17.3078 14.9538 17.9568 14.9538C18.6189 14.9538 19.25 14.421 19.25 13.7638V8.78765C19.25 8.12628 18.6141 7.60584 17.9568 7.60584Z"
+                                                    fill="black" />
+                                            </svg>
+                                            <p class="text">ANDROID</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="device-content" id="ios">
+                                <h3>Trade on iOS</h3>
+                                <p>Ideal for traders on the go, MT5 mobile brings new order types and detailed market
+                                    depth information straight to your mobile device. Available for iOS and Android.</p>
+                                <p class="dnf">Download for</p>
+                                <ul class="download-list pdl-none">
+                                    <li class="download-item">
+                                        <a class="download-link fx_center" target="_blank"
+                                            href="https://apps.apple.com/us/app/metatrader-5-forex-stocks/id413251709">
+                                            <svg class="icon" width="22" height="22" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M20.2519 16.0321C19.7459 17.1524 19.5039 17.6533 18.854 18.6433C17.9461 20.0259 16.6642 21.7512 15.0793 21.7631C13.6697 21.7749 13.3058 20.8433 11.3927 20.8585C9.4795 20.8678 9.08096 21.78 7.66957 21.7656C6.08473 21.7512 4.87134 20.1968 3.96257 18.8168C1.42157 14.9456 1.15334 10.4085 2.7238 7.99445C3.8348 6.28268 5.59311 5.27745 7.24396 5.27745C8.92527 5.27745 9.98211 6.20145 11.3723 6.20145C12.7211 6.20145 13.5427 5.27491 15.4872 5.27491C16.9578 5.27491 18.513 6.07622 19.624 7.45884C15.989 9.45068 16.5796 14.6427 20.2519 16.0321ZM14.0115 3.72984C14.7189 2.82191 15.2553 1.54084 15.0607 0.234375C13.9066 0.313067 12.557 1.05007 11.7683 2.00453C11.0542 2.87353 10.4619 4.16476 10.6929 5.41368C11.952 5.4543 13.255 4.70376 14.0115 3.72984Z"
+                                                    fill="#293838" />
+                                            </svg>
+                                            <p class="text">IOS</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h6 class="section-title bg-white text-center text-primary px-3">Wavesolution Capital</h6>
+                <h1 class="display-6 mb-4">Why Choose Us?</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="bx">
+                        <div class="bx-wrap">
+                            <svg class="icon" width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M12.625 26.875V24.5H17.375V26.875H24.5V29.25H5.5V26.875H12.625ZM0.75 22.125V0.75H29.25V22.125H0.75Z"
+                                    fill="url(#paint0_linear_711_5)" />
+                                <defs>
+                                    <linearGradient id="paint0_linear_711_5" x1="15" y1="0.75" x2="15" y2="29.25"
+                                        gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#7462AA" />
+                                        <stop offset="1" stop-color="#62C6E1" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                        <h4 class="title-mm">Trading Platforms</h4>
+                        <p class="description">Give your forex trading an edge with robust, feature-rich and easy-to-use
+                            MetaTrader 4, MetaTrader 5.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="bx">
+                        <div class="bx-wrap">
+                            <svg class="icon" width="38" height="38" viewBox="0 0 38 38" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M11.3999 20.2667V26.6001H17.7333M11.3999 11.4001V3.80006C11.3999 3.12818 11.6668 2.48381 12.1419 2.00872C12.617 1.53363 13.2614 1.26672 13.9333 1.26672H34.1999C34.8718 1.26672 35.5162 1.53363 35.9913 2.00872C36.4664 2.48381 36.7333 3.12818 36.7333 3.80006V24.0667C36.7333 24.7386 36.4664 25.383 35.9913 25.8581C35.5162 26.3332 34.8718 26.6001 34.1999 26.6001H26.5999L11.3999 11.4001ZM11.3999 11.4001H3.79993C3.12805 11.4001 2.48369 11.667 2.0086 12.1421C1.53351 12.6171 1.2666 13.2615 1.2666 13.9334V34.2001C1.2666 34.8719 1.53351 35.5163 2.0086 35.9914C2.48369 36.4665 3.12805 36.7334 3.79993 36.7334H24.0666C24.7385 36.7334 25.3828 36.4665 25.8579 35.9914C26.333 35.5163 26.5999 34.8719 26.5999 34.2001V26.6001L11.3999 11.4001ZM11.3999 11.4001V17.7334V11.4001ZM11.3999 11.4001H17.7333H11.3999ZM26.5999 26.6001H20.2666H26.5999ZM26.5999 26.6001V20.2667V26.6001ZM20.2666 11.4001H26.5999V17.7334L20.2666 11.4001Z"
+                                    stroke="url(#paint0_linear_711_7)" />
+                                <defs>
+                                    <linearGradient id="paint0_linear_711_7" x1="18.9999" y1="1.26672" x2="18.9999"
+                                        y2="36.7334" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#7462AA" />
+                                        <stop offset="1" stop-color="#62C6E1" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                        <h4 class="title-mm">Multiple Account Types</h4>
+                        <p class="description">Micro Account from only $250 Premium Account from just $1000 PAMM Account
+                            for fund managers.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+
+                    <div class="bx">
+                        <div class="bx-wrap">
+                            <svg class="icon" width="38" height="34" viewBox="0 0 38 34" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M26.125 2.75C26.125 2.12011 26.3752 1.51602 26.8206 1.07062C27.266 0.625222 27.8701 0.375 28.5 0.375H33.25C33.8799 0.375 34.484 0.625222 34.9294 1.07062C35.3748 1.51602 35.625 2.12011 35.625 2.75V31.25H36.8125C37.1274 31.25 37.4295 31.3751 37.6522 31.5978C37.8749 31.8205 38 32.1226 38 32.4375C38 32.7524 37.8749 33.0545 37.6522 33.2772C37.4295 33.4999 37.1274 33.625 36.8125 33.625H1.1875C0.872555 33.625 0.57051 33.4999 0.347811 33.2772C0.125111 33.0545 0 32.7524 0 32.4375C0 32.1226 0.125111 31.8205 0.347811 31.5978C0.57051 31.3751 0.872555 31.25 1.1875 31.25H2.375V24.125C2.375 23.4951 2.62522 22.891 3.07062 22.4456C3.51602 22.0002 4.12011 21.75 4.75 21.75H9.5C10.1299 21.75 10.734 22.0002 11.1794 22.4456C11.6248 22.891 11.875 23.4951 11.875 24.125V31.25H14.25V14.625C14.25 13.9951 14.5002 13.391 14.9456 12.9456C15.391 12.5002 15.9951 12.25 16.625 12.25H21.375C22.0049 12.25 22.609 12.5002 23.0544 12.9456C23.4998 13.391 23.75 13.9951 23.75 14.625V31.25H26.125V2.75Z"
+                                    fill="url(#paint0_linear_711_31)" />
+                                <defs>
+                                    <linearGradient id="paint0_linear_711_31" x1="19" y1="0.375" x2="19" y2="33.625"
+                                        gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#7462AA" />
+                                        <stop offset="1" stop-color="#62C6E1" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                        <h4 class="title-mm">Forex Trading Leverage</h4>
+                        <p class="description">Get competitive leverage of up to 500:1 in over 50 currency pairs and
+                            widen your exposure to the global forex markets.</p>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+
+                    <div class="bx">
+                        <div class="bx-wrap">
+                            <svg class="icon" width="34" height="22" viewBox="0 0 34 22" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.5 14.1667H4.33333C3.45888 14.1667 2.75 14.8756 2.75 15.7501V18.9167C2.75 19.7912 3.45888 20.5001 4.33333 20.5001H7.5C8.37445 20.5001 9.08333 19.7912 9.08333 18.9167V15.7501C9.08333 14.8756 8.37445 14.1667 7.5 14.1667Z"
+                                    stroke="url(#paint0_linear_1_15)" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M29.6666 14.1667H26.5C25.6255 14.1667 24.9166 14.8756 24.9166 15.7501V18.9167C24.9166 19.7912 25.6255 20.5001 26.5 20.5001H29.6666C30.5411 20.5001 31.25 19.7912 31.25 18.9167V15.7501C31.25 14.8756 30.5411 14.1667 29.6666 14.1667Z"
+                                    stroke="url(#paint1_linear_1_15)" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M18.5833 1.5H15.4166C14.5421 1.5 13.8333 2.20888 13.8333 3.08333V6.25C13.8333 7.12445 14.5421 7.83333 15.4166 7.83333H18.5833C19.4577 7.83333 20.1666 7.12445 20.1666 6.25V3.08333C20.1666 2.20888 19.4577 1.5 18.5833 1.5Z"
+                                    stroke="url(#paint2_linear_1_15)" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M29.6666 4.66675H20.1666M13.8333 5.45841C11.727 5.80909 9.80033 6.85909 8.36401 8.43903C6.9277 10.019 6.06553 12.0367 5.91659 14.1667L13.8333 5.45841ZM20.1666 5.45841C22.2728 5.80909 24.1995 6.85909 25.6358 8.43903C27.0721 10.019 27.9343 12.0367 28.0833 14.1667L20.1666 5.45841ZM13.8333 4.66675H4.33325H13.8333Z"
+                                    stroke="url(#paint3_linear_1_15)" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M2.74996 6.24992C3.62441 6.24992 4.33329 5.54104 4.33329 4.66659C4.33329 3.79213 3.62441 3.08325 2.74996 3.08325C1.87551 3.08325 1.16663 3.79213 1.16663 4.66659C1.16663 5.54104 1.87551 6.24992 2.74996 6.24992Z"
+                                    stroke="url(#paint4_linear_1_15)" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M31.25 6.24992C32.1244 6.24992 32.8333 5.54104 32.8333 4.66659C32.8333 3.79213 32.1244 3.08325 31.25 3.08325C30.3755 3.08325 29.6666 3.79213 29.6666 4.66659C29.6666 5.54104 30.3755 6.24992 31.25 6.24992Z"
+                                    stroke="url(#paint5_linear_1_15)" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <defs>
+                                    <linearGradient id="paint0_linear_1_15" x1="5.91667" y1="14.1667" x2="5.91667"
+                                        y2="20.5001" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#7462AA" />
+                                        <stop offset="1" stop-color="#62C6E1" />
+                                    </linearGradient>
+                                    <linearGradient id="paint1_linear_1_15" x1="28.0833" y1="14.1667" x2="28.0833"
+                                        y2="20.5001" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#7462AA" />
+                                        <stop offset="1" stop-color="#62C6E1" />
+                                    </linearGradient>
+                                    <linearGradient id="paint2_linear_1_15" x1="16.9999" y1="1.5" x2="16.9999"
+                                        y2="7.83333" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#7462AA" />
+                                        <stop offset="1" stop-color="#62C6E1" />
+                                    </linearGradient>
+                                    <linearGradient id="paint3_linear_1_15" x1="16.9999" y1="4.66675" x2="16.9999"
+                                        y2="14.1667" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#7462AA" />
+                                        <stop offset="1" stop-color="#62C6E1" />
+                                    </linearGradient>
+                                    <linearGradient id="paint4_linear_1_15" x1="2.74996" y1="3.08325" x2="2.74996"
+                                        y2="6.24992" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#7462AA" />
+                                        <stop offset="1" stop-color="#62C6E1" />
+                                    </linearGradient>
+                                    <linearGradient id="paint5_linear_1_15" x1="31.25" y1="3.08325" x2="31.25"
+                                        y2="6.24992" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#7462AA" />
+                                        <stop offset="1" stop-color="#62C6E1" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                        <h4 class="title-mm">Superior Trading Tools</h4>
+                        <p class="description">18 Trading Tools Execute Trades directly with One Click Trading Breaking
+                            Market News and Analysis.</p>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+
+                    <div class="bx">
+                        <div class="bx-wrap">
+                            <svg class="icon" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M28.5004 16.0001H3.41246M29.102 1.35427H2.89788C2.48485 1.3646 2.09222 1.53596 1.80379 1.83178C1.51537 2.1276 1.354 2.52444 1.35413 2.9376V29.1418C1.35413 29.5617 1.52094 29.9644 1.81787 30.2614C2.11481 30.5583 2.51753 30.7251 2.93746 30.7251H29.1416C29.5616 30.7251 29.9643 30.5583 30.2612 30.2614C30.5581 29.9644 30.725 29.5617 30.725 29.1418V2.89802C30.7198 2.69007 30.6738 2.48517 30.5894 2.29503C30.5051 2.10489 30.3841 1.93324 30.2334 1.78988C30.0827 1.64651 29.9052 1.53425 29.711 1.45951C29.5169 1.38476 29.31 1.349 29.102 1.35427V1.35427ZM3.41246 7.6401H6.57913V10.8068H3.41246V7.6401ZM6.57913 21.8901H3.41246V18.7234H6.57913V21.8901ZM3.41246 24.6134H6.57913V27.7801H3.41246V24.6134ZM3.41246 4.65552H28.5004H3.41246ZM9.30246 9.22343H28.5004H9.30246ZM9.30246 20.3464H28.5004H9.30246ZM9.30246 26.2205H28.5004H9.30246Z"
+                                    stroke="url(#paint0_linear_711_43)" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <defs>
+                                    <linearGradient id="paint0_linear_711_43" x1="16.0395" y1="1.35376" x2="16.0395"
+                                        y2="30.7251" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#7462AA" />
+                                        <stop offset="1" stop-color="#62C6E1" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                        <h4 class="title-mm">Global Regulated Broker</h4>
+                        <p class="description">Boost your trading experience with a licensed and fully regulated Global
+                            forex broker, with multiple awards to their name.</p>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="bx">
+                        <div class="bx-wrap">
+                            <svg class="icon" width="30" height="28" viewBox="0 0 30 28" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.08329 1.33325L12.625 6.87492M22.9166 26.6666V7.66659V26.6666ZM22.9166 26.6666L17.375 21.1249L22.9166 26.6666ZM22.9166 26.6666L28.4583 21.1249L22.9166 26.6666ZM7.08329 21.9166V1.33325V21.9166ZM7.08329 1.33325L1.54163 6.87492L7.08329 1.33325Z"
+                                    stroke="url(#paint0_linear_711_45)" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <defs>
+                                    <linearGradient id="paint0_linear_711_45" x1="15" y1="1.33325" x2="15" y2="26.6666"
+                                        gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#7462AA" />
+                                        <stop offset="1" stop-color="#62C6E1" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                        <h4 class="title-mm">Low Latency Execution</h4>
+                        <p class="description">Get all the available market prices and tight spreads, with ultra-low
+                            latency execution and minimal slippage.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+    <!--start trading-->
+    <div class="trading-account">
+        <div class="container">
+            <a href="#" class="trading-account__inner fx_centerX">
+                <svg class="icon" width="36" height="37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M18 3.5C15.0333 3.5 12.1332 4.37973 9.66645 6.02796C7.19972 7.67618 5.27713 10.0189 4.14181 12.7597C3.0065 15.5006 2.70945 18.5166 3.28823 21.4264C3.86701 24.3361 5.29562 27.0088 7.39341 29.1066C9.49119 31.2044 12.1639 32.633 15.0737 33.2118C17.9834 33.7906 20.9994 33.4935 23.7403 32.3582C26.4812 31.2229 28.8238 29.3003 30.4721 26.8336C32.1203 24.3668 33 21.4667 33 18.5C33 16.5302 32.612 14.5796 31.8582 12.7597C31.1044 10.9399 29.9995 9.28628 28.6066 7.8934C27.2137 6.50052 25.5601 5.39563 23.7403 4.64181C21.9204 3.88799 19.9698 3.5 18 3.5ZM18 30.5C15.6266 30.5 13.3066 29.7962 11.3332 28.4776C9.35977 27.1591 7.8217 25.2849 6.91345 23.0922C6.0052 20.8995 5.76756 18.4867 6.23058 16.1589C6.69361 13.8311 7.8365 11.6929 9.51473 10.0147C11.193 8.33649 13.3312 7.1936 15.6589 6.73058C17.9867 6.26755 20.3995 6.50519 22.5922 7.41345C24.7849 8.3217 26.6591 9.85977 27.9776 11.8332C29.2962 13.8065 30 16.1266 30 18.5C30 21.6826 28.7357 24.7348 26.4853 26.9853C24.2349 29.2357 21.1826 30.5 18 30.5Z"
+                        fill="white" />
+                    <path
+                        d="M24 17H19.5V12.5C19.5 12.1022 19.342 11.7206 19.0607 11.4393C18.7794 11.158 18.3978 11 18 11C17.6022 11 17.2206 11.158 16.9393 11.4393C16.658 11.7206 16.5 12.1022 16.5 12.5V18.5C16.5 18.8978 16.658 19.2794 16.9393 19.5607C17.2206 19.842 17.6022 20 18 20H24C24.3978 20 24.7794 19.842 25.0607 19.5607C25.342 19.2794 25.5 18.8978 25.5 18.5C25.5 18.1022 25.342 17.7206 25.0607 17.4393C24.7794 17.158 24.3978 17 24 17Z"
+                        fill="white" />
+                </svg>
+                <p class="text">Ready to start? Open Trading Account Now</p>
+                <div class="enter-icon">
+                    <svg class="icon" width="22" height="22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M4.58341 11.9168H15.4551L12.1276 15.9135C12.0505 16.0062 11.9925 16.1131 11.9568 16.2283C11.9211 16.3434 11.9084 16.4644 11.9195 16.5844C11.9418 16.8268 12.0595 17.0504 12.2467 17.206C12.4339 17.3616 12.6753 17.4364 12.9177 17.4141C13.1601 17.3918 13.3837 17.274 13.5392 17.0868L18.1226 11.5868C18.1534 11.5431 18.181 11.4971 18.2051 11.4493C18.2051 11.4035 18.2509 11.376 18.2692 11.3302C18.3108 11.2251 18.3326 11.1132 18.3334 11.0002C18.3326 10.8871 18.3108 10.7753 18.2692 10.6702C18.2692 10.6243 18.2234 10.5968 18.2051 10.551C18.181 10.5032 18.1534 10.4572 18.1226 10.4135L13.5392 4.9135C13.4531 4.81002 13.3451 4.72681 13.2231 4.66977C13.1011 4.61274 12.9681 4.58328 12.8334 4.5835C12.6192 4.58308 12.4117 4.65767 12.2467 4.79433C12.1539 4.87128 12.0772 4.96579 12.021 5.07244C11.9647 5.1791 11.9301 5.2958 11.919 5.41586C11.9079 5.53592 11.9207 5.65699 11.9565 5.77212C11.9922 5.88726 12.0504 5.9942 12.1276 6.08683L15.4551 10.0835H4.58341C4.3403 10.0835 4.10714 10.1801 3.93523 10.352C3.76333 10.5239 3.66675 10.7571 3.66675 11.0002C3.66675 11.2433 3.76333 11.4764 3.93523 11.6483C4.10714 11.8203 4.3403 11.9168 4.58341 11.9168Z"
+                            fill="url(#paint0_linear_101_903)" />
+                        <defs>
+                            <linearGradient id="paint0_linear_101_903" x1="11.0001" y1="4.5835" x2="11.0001" y2="17.418"
+                                gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#7462AA" />
+                                <stop offset="1" stop-color="#62C6E1" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+            </a>
+        </div>
+    </div>
+    <!--start trading end-->
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-body footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="text-light mb-4">Company</h5>
+                    <a class="btn btn-link" href="terms-condition.html">Terms & Conditions</a>
+                    <a class="btn btn-link" href="#">Privacy Policy</a>
+                    <a class="btn btn-link" href="about.html">About Us</a>
+                    <a class="btn btn-link" href="contact.html">Contact</a>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="text-light mb-4">Quick Links</h5>
+                    <a class="btn btn-link"
+                        href="https://download.mql5.com/cdn/web/metaquotes.software.corp/mt5/mt5setup.exe?utm_source=www.metatrader5.com&utm_campaign=download">Download</a>
+                    <a class="btn btn-link" href="web-platform.html">Web Platform MT5</a>
+                    <a class="btn btn-link" href="#">Open Account</a>
+                    <a class="btn btn-link" href="#">Log in</a>
+                </div>
+                <form class="col-lg-4 col-md-6">
+                    <h5 class="text-light mb-4">Subscribe Us</h5>
+                    <p>Subscribe to get latest news article and resources.</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control bg-transparent border-secondary w-100 py-3 ps-4 pe-5" type="text"
+                            placeholder="Subscribe Now...">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M21.426 11.0949L4.42601 3.09492C4.25482 3.01437 4.0643 2.98404 3.87657 3.00743C3.68883 3.03083 3.51158 3.107 3.36541 3.22711C3.21923 3.34721 3.11012 3.50632 3.05076 3.68595C2.99139 3.86558 2.98419 4.05837 3.03001 4.24192L4.24201 9.09092L12 11.9999L4.24201 14.9089L3.03001 19.7579C2.98333 19.9416 2.98992 20.1348 3.04902 20.3149C3.10811 20.495 3.21726 20.6545 3.3637 20.7748C3.51014 20.8951 3.68782 20.9713 3.87594 20.9943C4.06406 21.0173 4.25486 20.9863 4.42601 20.9049L21.426 12.9049C21.5978 12.8242 21.7431 12.6962 21.8448 12.5359C21.9466 12.3757 22.0006 12.1898 22.0006 11.9999C22.0006 11.8101 21.9466 11.6242 21.8448 11.4639C21.7431 11.3037 21.5978 11.1757 21.426 11.0949V11.0949Z"
+                                    fill="white" />
+                            </svg>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="container-fluid copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a href="index.html">Wavesolution</a>, All Right Reserved.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
