@@ -965,14 +965,14 @@
 }
 
 .tx-mm {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 100% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
 }
 
 .tx-mm p{
-    max-width: 90%;
+    max-width: 90% !important;
 }
 
 
