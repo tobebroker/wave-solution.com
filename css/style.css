@@ -964,6 +964,17 @@
     font-weight: 400 !important;
 }
 
+.tx-mm {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tx-mm p{
+    max-width: 90%;
+}
+
 
 @media screen and (max-width:480px) {
     .section-title.bg-white.text-start.text-primary.pe-3 {
