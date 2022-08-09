@@ -976,6 +976,10 @@
         min-height: 220px;
     }
 
+    #header-carousel .carousel-item {
+        min-height: 290px;
+    }
+
     .trading-account svg:first-child {
         display: none;
     }
