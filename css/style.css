@@ -974,9 +974,6 @@
 .tx-mm p{
     max-width: 90% !important;
 }
-.contentDB {
-    display: contents;
-}
 
 
 @media screen and (max-width:480px) {
