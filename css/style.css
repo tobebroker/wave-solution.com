@@ -986,6 +986,9 @@
         font-size: 10px;
         line-height: 1.8;
     }
+    .trading-account .trading-account__inner .text {
+        font-size: 11px;
+    }
     .sc5 .acc-list .acc-item {
         font-size: 12px;
     }
